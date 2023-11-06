@@ -15,6 +15,7 @@ scanf("%f",&Numeral);
 printf("Операция (+,-,*,/,pow,sqrt,sin,cos,tan): ");
 scanf("%s",&Operation);
 Result = Calculate(Numeral, Operation);
+println("Ответ");
 printf("%6.2f\n",Result);
 return 0;
 }
